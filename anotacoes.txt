@@ -1,0 +1,20 @@
+oque seria o typescript?
+
+um superset do javascript, ou seja extende
+
+o javascript ele eh uma linguagem de tipagem dinamica, ou seja, quando declaramos uma variavel no javascript o tipo dessa variavel
+pode mudar. isso o torna muito flexivel, porem pode levar muitos bugs dificeis de encontrar.
+
+o typescript vem pra resolver isso com? -> tipagem estatica: os tipos das variaveis irao ser verificados em tempo de compilacao
+TSC = compilado do typescript
+type mismatch = espero que a variavel seja de um tipo quando eh de outra
+operacoes invalidas("pedro / 2", [2, 4] * 2 / 3)
+por padrao, as variaveis permanecem tendo um unico tipo.
+ex: const a = "Fernanda"
+a = 2
+soma(a)
+
+Todo codigo typescript no final vira um codigo js, depois de compilado, pois eh o javascript que executa no browser.
+isso significa que todo codigo javascript eh um codigo typescript valido, pq a tipagem no typescript eh "opcional".
+
+pq o typescript existe? Para captar erros antecipadamente, durante o desenvolvimento/build e tambem para aumentar produtividade.

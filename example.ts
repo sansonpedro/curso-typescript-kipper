@@ -59,14 +59,15 @@ logarMensagem("Operacao concluida com sucesso")
 // 5. Inferencia de Tipo (Typescript deduz o tipo)
 // ---------------------------------------------------------
 
+// Voce nao precisa anotar, mas a tipagem eh mantida!
+
 // O TS infere que 'pi' eh do tipo 'number'
 let pi = 3.14159;
+//pi = "erro" // Type 'string' is not assignable to typ 'number'
 
 // O TS infere que 'cidade' eh do tipo 'string'
 let cidade = "Sao Paulo";
 
-// Voce nao precisa anotar, mas a tipagem eh mantida!
-//pi = "erro" // Type 'string' is not assignable to typ 'number'
 
 // 6. Union Types (Tipos de Uniao) A variavel pode ser um OU outro tipo
 // ---------------------------------------------------------
@@ -87,4 +88,6 @@ let cargoDoFuncionario: "gerente" | "supervisor" | "funcionario";
 cargoDoFuncionario = "gerente"
 cargoDoFuncionario = "supervisor"
 cargoDoFuncionario = "funcionario"
-// cargoDoFuncionario = "estagiario" // Opa tu tinha me dito que eram so 3, nao me passou esse!
+// cargoDoFuncionario = "estagiario" // Opa tu tinha me dito que eram so 3, nao me passou esse! = erro de typagem
+
+// Any e Unknown = diferenca filosofica. Any = nao sei o valor do dado, Unknown = Nao sei mas irei descobrir. 

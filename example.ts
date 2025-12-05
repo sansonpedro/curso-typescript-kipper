@@ -90,4 +90,5 @@ cargoDoFuncionario = "supervisor"
 cargoDoFuncionario = "funcionario"
 // cargoDoFuncionario = "estagiario" // Opa tu tinha me dito que eram so 3, nao me passou esse! = erro de typagem
 
-// Any e Unknown = diferenca filosofica. Any = nao sei o valor do dado, Unknown = Nao sei mas irei descobrir. 
+// Any e Unknown = diferenca filosofica. Any = nao sei o valor do dado, Unknown = Nao sei mas irei descobrir.
+// criar projetos solidos, qualidade > quantidade
